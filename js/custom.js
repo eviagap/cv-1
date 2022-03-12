@@ -11,7 +11,7 @@ Assigned to: ThemeForest
   // Preloader Js
   jQuery(window).on("load", function () {
     jQuery("#status").fadeOut();
-    jQuery("#preloader").delay(200).fadeOut("slow");
+    jQuery("#preloader").delay(50).fadeOut("fast");
   });
 
   // ready function
